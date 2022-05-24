@@ -36,7 +36,7 @@ public class ListActivity extends AppCompatActivity {
                         Intent mainActivityIntent = new Intent(ListActivity.this, MainActivity.class);
                         mainActivityIntent.putExtra("randomNumber", Integer.valueOf(randomint).toString());
                         startActivity(mainActivityIntent);
-                        finish();
+
 //                      Toast.makeText(getApplicationContext(), String.format("%s",randomint),Toast.LENGTH_SHORT).show();
                     }
                 });
